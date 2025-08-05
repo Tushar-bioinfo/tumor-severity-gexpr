@@ -90,8 +90,8 @@ We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
 | 15% Genes   | 0.767    | 0.703 | 0.662 | 0.730 |
 | 25% Genes   | 0.790    | 0.703 | 0.637 | **0.790** |
 
-Final comparison: see `results/plots/Acc_comparison-v-all.png`
 
+![Model Accuracy Comparison](results/plots/Acc_comparison-v-all.png)
 
 This created multiple feature subsets for downstream model comparisons.
 
