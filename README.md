@@ -55,21 +55,6 @@ TCGA-MLDL/
 - Filtered for patients with matching clinical annotations.
 - Aligned and merged clinical labels (severity) with the gene expression matrix.
 
-  
----
-
-## Models and Results
-
-We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
-
-| Split     | Logistic | SVM   | RF    | CNN   |
-|-----------|----------|-------|-------|--------|
-| 5% Genes    | 0.649    | 0.674 | 0.659 | 0.700 |
-| 15% Genes   | 0.767    | 0.703 | 0.662 | 0.730 |
-| 25% Genes   | 0.790    | 0.703 | 0.637 | **0.790** |
-
-Final comparison: see `results/model_accuracies.png`
-
 ---
 ## Exploratory Data Analysis (EDA)
 
@@ -93,7 +78,24 @@ Final comparison: see `results/model_accuracies.png`
 
   
 ---
+
+
+## Models and Results
+
+We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
+
+| Split     | Logistic | SVM   | RF    | CNN   |
+|-----------|----------|-------|-------|--------|
+| 5% Genes    | 0.649    | 0.674 | 0.659 | 0.700 |
+| 15% Genes   | 0.767    | 0.703 | 0.662 | 0.730 |
+| 25% Genes   | 0.790    | 0.703 | 0.637 | **0.790** |
+
+Final comparison: see `results/model_accuracies.png`
+
+
 This created multiple feature subsets for downstream model comparisons.
+
+---
 
 ## How to Run with Docker
 
