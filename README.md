@@ -1,4 +1,4 @@
-# TCGA-LUAD Tumor Severity Prediction Using RNA-Seq and AI Models (ML & CNN)
+# Tumor Severity Stratification in Lung Cancer from Gene Expression Profiles Using Supervised Learning
 
 
 
