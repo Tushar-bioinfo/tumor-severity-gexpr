@@ -62,7 +62,7 @@ TCGA-MLDL/
 - Visualized gene expression distributions.
 - Assessed expression sparsity and data variance.
 
-<img src="results/plots/severity.png" alt="Model Accuracy Comparison" style="width:50%;">
+<img src="results/plots/severity.png" alt="Model Accuracy Comparison" style="width:30%;">
 
 
 ---
