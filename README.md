@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="results/plots/Xnip2025-08-05_17-10-49.png" alt="Model Accuracy Comparison" style="width:50%;">
+  <img src="results/plots/Xnip2025-08-05_17-10-49.png" alt="Model Accuracy Comparison" style="width:75%;">
 </p>
 
 
