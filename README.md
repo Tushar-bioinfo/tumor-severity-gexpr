@@ -9,7 +9,7 @@ This project predicts **tumor severity** in lung adenocarcinoma patients using g
 
 The dataset contains 510 patients, with approximately **55% severe** and **45% non-severe** cases.
 
-> **Best accuracy achieved: 79%** (CNN model with 25% DEGs)  
+> **Best accuracy achieved: 79%** (CNN model with 25% Genes from ANOVA f-test)  
 > **Fully containerized with Docker**  
 > **Nextflow pipeline** included for future HPC-based hyperparameter optimization
 
