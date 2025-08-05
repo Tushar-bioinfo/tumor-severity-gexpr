@@ -71,21 +71,25 @@ Final comparison: see `results/model_accuracies.png`
 ---
 ## Exploratory Data Analysis (EDA)
 
-• Checked class balance: ~55% Severe vs ~45% Non-Severe.
-• Visualized gene expression distributions.
-• Assessed expression sparsity and data variance.
+- Checked class balance: ~55% Severe vs ~45% Non-Severe.
+- Visualized gene expression distributions.
+- Assessed expression sparsity and data variance.
 ---
 
 ## Feature Selection
-• Performed ANOVA F-test to identify genes most associated with severity labels.
-• Selected top features based on different percentile cutoffs:
-• 5%, 15%, and 25% of highest-ranking genes
+
+- Performed ANOVA F-test to identify genes most associated with severity labels.
+- Selected top features based on different percentile cutoffs:
+- 5%, 15%, and 25% of highest-ranking genes
 
 ---
 ## Hyperparameter Tuning
-• For ML models: used GridSearchCV
-• For CNN: used Optuna to tune regularization strength and dense layer size
-• Built a future-ready Nextflow pipeline (/nf/) to scale this tuning on HPC
+
+- For ML models: used GridSearchCV
+- For CNN: used Optuna to tune regularization strength and dense layer size
+- Built a future-ready Nextflow pipeline (/nf/) to scale this tuning on HPC
+
+  
 ---
 This created multiple feature subsets for downstream model comparisons.
 
