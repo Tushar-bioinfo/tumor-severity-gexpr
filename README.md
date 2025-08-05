@@ -13,7 +13,7 @@ The dataset contains 510 patients, with approximately **55% severe** and **45% n
 
 ---
 
-##Project Structure
+## Project Structure
 
 ```
 TCGA-MLDL/
