@@ -93,8 +93,6 @@ We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
 
 <img src="results/plots/Acc_comparison-v-all.png" alt="Model Accuracy Comparison" style="width:50%;">
 
-This created multiple feature subsets for downstream model comparisons.
-
 ---
 
 ## How to Run with Docker
