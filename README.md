@@ -7,13 +7,13 @@ This project predicts **tumor severity** in lung adenocarcinoma patients using g
 
 The dataset contains 510 patients, with approximately **55% severe** and **45% non-severe** cases.
 
-> 📊 **Best accuracy achieved: 79%** (CNN model with 25% DEGs)  
-> 🏗️ **Fully containerized with Docker**  
-> ⚙️ **Nextflow pipeline** included for future HPC-based hyperparameter optimization
+> **Best accuracy achieved: 79%** (CNN model with 25% DEGs)  
+> **Fully containerized with Docker**  
+> **Nextflow pipeline** included for future HPC-based hyperparameter optimization
 
 ---
 
-## 🗂️ Project Structure
+##Project Structure
 
 ```
 TCGA-MLDL/
