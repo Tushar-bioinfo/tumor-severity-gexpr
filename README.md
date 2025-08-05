@@ -61,6 +61,10 @@ TCGA-MLDL/
 - Checked class balance: ~55% Severe vs ~45% Non-Severe.
 - Visualized gene expression distributions.
 - Assessed expression sparsity and data variance.
+
+<img src="results/plots/severity.png" alt="Model Accuracy Comparison" style="width:50%;">
+
+
 ---
 
 ## Feature Selection
