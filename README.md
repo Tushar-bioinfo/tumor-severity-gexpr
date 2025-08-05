@@ -47,6 +47,12 @@ TCGA-MLDL/
 ```
 
 ---
+## Project Structure
+
+• Transposed the expression matrix so rows represent patients and columns represent genes.
+• Filtered for patients with matching clinical annotations.
+• Aligned and merged clinical labels (severity) with the gene expression matrix.
+---
 
 ## Models and Results
 
@@ -61,6 +67,25 @@ We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
 Final comparison: see `results/model_accuracies.png`
 
 ---
+## Exploratory Data Analysis (EDA)
+
+• Checked class balance: ~55% Severe vs ~45% Non-Severe.
+• Visualized gene expression distributions.
+• Assessed expression sparsity and data variance.
+---
+
+## Feature Selection
+• Performed ANOVA F-test to identify genes most associated with severity labels.
+• Selected top features based on different percentile cutoffs:
+• 5%, 15%, and 25% of highest-ranking genes
+
+---
+## Hyperparameter Tuning
+• For ML models: used GridSearchCV
+• For CNN: used Optuna to tune regularization strength and dense layer size
+• Built a future-ready Nextflow pipeline (/nf/) to scale this tuning on HPC
+---
+This created multiple feature subsets for downstream model comparisons.
 
 ## How to Run with Docker
 
