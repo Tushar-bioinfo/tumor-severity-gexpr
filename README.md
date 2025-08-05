@@ -50,13 +50,13 @@ TCGA-MLDL/
 
 ## Models and Results
 
-We evaluated 4 models across multiple splits (top 5%, 15%, 25% DEGs):
+We evaluated 4 models across multiple splits (top 5%, 15%, 25% ANOVA f-test):
 
 | Split     | Logistic | SVM   | RF    | CNN   |
 |-----------|----------|-------|-------|--------|
-| 5% DEGs   | 0.649    | 0.674 | 0.659 | 0.700 |
-| 15% DEGs  | 0.767    | 0.703 | 0.662 | 0.730 |
-| 25% DEGs  | 0.790    | 0.703 | 0.637 | **0.790** |
+| 5% Genes    | 0.649    | 0.674 | 0.659 | 0.700 |
+| 15% Genes   | 0.767    | 0.703 | 0.662 | 0.730 |
+| 25% Genes   | 0.790    | 0.703 | 0.637 | **0.790** |
 
 Final comparison: see `results/model_accuracies.png`
 
