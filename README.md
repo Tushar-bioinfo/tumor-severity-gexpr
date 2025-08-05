@@ -1,4 +1,4 @@
-# 🧬 Tumor Severity Prediction from RNA-Seq using Machine Learning and Deep Learning
+# Tumor Severity Prediction from RNA-Seq using Machine Learning and Deep Learning
 
 This project predicts **tumor severity** in lung adenocarcinoma patients using gene expression data from the TCGA-LUAD dataset (retrieved from cBioPortal). We classify patients as:
 
