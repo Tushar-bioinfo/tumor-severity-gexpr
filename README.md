@@ -49,11 +49,11 @@ TCGA-MLDL/
 ---
 ## Project Structure
 
-• Transposed the expression matrix so rows represent patients and columns represent genes.
+**Transposed the expression matrix so rows represent patients and columns represent genes.
 
-• Filtered for patients with matching clinical annotations.
+**Filtered for patients with matching clinical annotations.
 
-• Aligned and merged clinical labels (severity) with the gene expression matrix.
+**Aligned and merged clinical labels (severity) with the gene expression matrix.
 ---
 
 ## Models and Results
