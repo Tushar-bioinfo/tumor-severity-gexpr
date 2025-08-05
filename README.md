@@ -1,13 +1,13 @@
 # Tumor Severity Stratification in Lung Cancer from Gene Expression Profiles Using Supervised Learning
 
-
-<p align="center">
-  <img src="results/plots/Xnip2025-08-05_17-10-49.png" alt="Model Accuracy Comparison" style="width:50%;">
-</p>
 This project predicts **tumor severity** in lung adenocarcinoma patients using gene expression data from the TCGA-LUAD dataset (retrieved from cBioPortal). We classify patients as:
 
 - **Severe**: pathological stage > 1  
 - **Non-severe**: pathological stage = 1
+
+<p align="center">
+  <img src="results/plots/Xnip2025-08-05_17-10-49.png" alt="Model Accuracy Comparison" style="width:50%;">
+</p>
 
 The dataset contains 510 patients, with approximately **55% severe** and **45% non-severe** cases.
 
